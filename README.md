@@ -1,4 +1,5 @@
 ## Как установить CCS TI для старой c55
+111111111111111111
 1) Скачиваем последнюю версию с [сайта TI](https://www.ti.com/tool/CCSTUDIO) (либо из [приложенного файла](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ccs_setup_12.8.1.00005.exe))
 2) Скачиваем и устанавливаем [Code Generation Tools](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ti_cgt_c5500_4.4.1_setup_win32.exe) (содержит компилятор, ассемблер, линковщик и т.д.).
 
