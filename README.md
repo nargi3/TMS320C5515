@@ -2,7 +2,7 @@
 111111111111111111
 1) Скачиваем и устанавливаем последнюю версию с [сайта TI](https://www.ti.com/tool/CCSTUDIO) (либо из [приложенного файла](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ccs_setup_12.8.1.00005.exe))
    При установке достаточно выбрать компонент C55x ultra-low-power DSP, как представлено на рисунке ниже.
-   ![image_1](https://github.com/nargi3/TMS320C5515/tree/assets/setup_components.png)
+   ![image_1](https://github.com/nargi3/TMS320C5515/d67dac49f595821838c098c664aadd4e47db0b68/setup_components.png)
 3) Скачиваем и устанавливаем [Code Generation Tools](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ti_cgt_c5500_4.4.1_setup_win32.exe) (содержит компилятор, ассемблер, линковщик и т.д.).
 
 >[!Note]
