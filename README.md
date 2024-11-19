@@ -1,9 +1,11 @@
 ## Как установить CCS TI для старой c55
-111111111111111111
 1) Скачиваем и устанавливаем последнюю версию с [сайта TI](https://www.ti.com/tool/CCSTUDIO) (либо из [приложенного файла](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ccs_setup_12.8.1.00005.exe))
+ 
    При установке достаточно выбрать компонент C55x ultra-low-power DSP, как представлено на рисунке ниже.
-![setup_components](https://github.com/user-attachments/assets/7468cebd-9f54-4aa0-885b-90bf8de96808)
-<img src="https://github.com/user-attachments/assets/7468cebd-9f54-4aa0-885b-90bf8de96808" alt="setup_components" width="300"/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7468cebd-9f54-4aa0-885b-90bf8de96808" alt="setup_components" width="800"/>
+</div>
+
  3) Скачиваем и устанавливаем [Code Generation Tools](https://github.com/lab-iu6/TMS320C5515/blob/setup/установка/ti_cgt_c5500_4.4.1_setup_win32.exe) (содержит компилятор, ассемблер, линковщик и т.д.).
 
 >[!Note]
@@ -29,8 +31,11 @@ Texas Instruments вместе с платой поставляет устано
 
 Чтобы создать проект для платы TMS320C5515 надо создать проект в IDE CCS, при настройке проекта необходимо указать следующие настройки:
 
-![image_2024-10-31_23-19-30](https://github.com/user-attachments/assets/3c4af697-6460-4a1d-8bde-de845e32ea3a)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3c4af697-6460-4a1d-8bde-de845e32ea3a" alt="img" width="600"/>
+</div>
 
+При выборе Compiler Version необходимо нажать More -> Add -> и выбрать папку, куда был установлен Code Generation Tool.
 > [!Warning]
 > ``Compiler version`` надо указать вручную, соответственно, если ``Code Generation Tools`` не был установлен, выбрать вы его не сможете.
 
